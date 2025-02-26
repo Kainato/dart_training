@@ -1,5 +1,5 @@
-import 'package:dart_training/dart_training.dart' as dart_training;
+import 'package:dart_training/beecrowd/1000_hello_world.dart' as challenge;
 
 void main(List<String> arguments) {
-  print('Hello world: ${dart_training.calculate()}!');
+  challenge.main();
 }
