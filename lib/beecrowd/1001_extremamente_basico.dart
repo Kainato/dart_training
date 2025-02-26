@@ -12,8 +12,8 @@ Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável X
 import 'dart:io';
 
 void main() {
-  var num1 = int.parse(stdin.readLineSync()!);
-  var num2 = int.parse(stdin.readLineSync()!);
+  int num1 = int.parse(stdin.readLineSync()!);
+  int num2 = int.parse(stdin.readLineSync()!);
 
   print('X = ${num1 + num2}');
 }
