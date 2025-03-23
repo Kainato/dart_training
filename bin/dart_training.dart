@@ -1,4 +1,4 @@
-import 'package:dart_training/beecrowd/1000_hello_world.dart' as challenge;
+import 'package:dart_training/beecrowd/nivel_1/3046_domino.dart' as challenge;
 
 void main(List<String> arguments) {
   challenge.main();
