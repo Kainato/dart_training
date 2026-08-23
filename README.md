@@ -1,2 +1,3 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+Um exemplo de aplicativo de linha de comando com um ponto de entrada em `bin/`, código da biblioteca
+
+Em `lib/`, e teste de unidade de exemplo em `test/`.
