@@ -1,4 +1,4 @@
-# 💙 Dart Training
+# 💙 Dart Lab
 
 Coleção de resoluções de problemas da plataforma [beecrowd](https://www.beecrowd.com.br/) desenvolvidas em **Dart**. O objetivo deste repositório é praticar a sintaxe da linguagem, lógica de programação, estruturas de dados e algoritmos.
 
