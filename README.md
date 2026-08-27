@@ -36,6 +36,6 @@ cd seu-repositorio
 
 ## 📌 Boas Práticas Adotadas
 
-- Nomeação clara: Arquivos organizados contendo o número e o título da questão.
-- Complexidade: Busca por soluções com menor complexidade de tempo O(N) e de memória.
-- Código limpo: Resoluções estruturadas para facilitar o entendimento de quem está estudando.
+- **Nomeação clara:** Arquivos organizados contendo o número e o título da questão.
+- **Complexidade:** Busca por soluções com menor complexidade de tempo O(N) e de memória.
+- **Código limpo:** Resoluções estruturadas para facilitar o entendimento de quem está estudando.
