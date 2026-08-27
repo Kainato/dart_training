@@ -5,6 +5,8 @@ Coleção de resoluções de problemas de estudo de algoritmo desenvolvidas em *
 ![Linguagem](https://img.shields.io/badge/Linguagem-Dart-blue?logo=dart)
 ![Soluções](https://img.shields.io/badge/Solu%C3%A7%C3%B5es-Em%20progresso-brightgreen)
 
+---
+
 ## 📁 Estrutura do Projeto
 
 O projeto é estruturado como um aplicativo Dart em linha de comando padrão:
