@@ -1,6 +1,6 @@
 # 💙 Dart Lab
 
-Coleção de resoluções de problemas da plataforma [beecrowd](https://www.beecrowd.com.br/) desenvolvidas em **Dart**. O objetivo deste repositório é praticar a sintaxe da linguagem, lógica de programação, estruturas de dados e algoritmos.
+Coleção de resoluções de problemas de estudo de algoritmo desenvolvidas em **Dart**. O objetivo deste repositório é praticar a sintaxe da linguagem, lógica de programação, estruturas de dados e algoritmos.
 
 ![Linguagem](https://img.shields.io/badge/Linguagem-Dart-blue?logo=dart)
 ![Soluções](https://img.shields.io/badge/Solu%C3%A7%C3%B5es-Em%20progresso-brightgreen)
