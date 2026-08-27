@@ -17,3 +17,22 @@ O projeto é estruturado como um aplicativo Dart em linha de comando padrão:
 ├── lib/          # Funções utilitárias, lógica dos algoritmos e bibliotecas auxiliares
 └── test/         # Testes unitários para validar o funcionamento das soluções
 ```
+
+## 🚀 Como Executar os Códigos
+
+1. Clone o repositório para a sua máquina:
+
+```
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+2. Entre no seu repositório
+
+```
+cd seu-repositorio
+```
+
+3. Execute o arquivo desejado com o interpretador ou compilador da linguagem 
+
+
+
