@@ -23,13 +23,13 @@ O projeto é estruturado como um aplicativo Dart em linha de comando padrão:
 1. Clone o repositório para a sua máquina:
 
 ```
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/seu-usuario/dart_lab.git
 ```
 
 2. Entre no seu repositório
 
 ```
-cd seu-repositorio
+cd dart_lab
 ```
 
 3. Execute o arquivo desejado com o interpretador ou compilador da linguagem 
