@@ -7,7 +7,7 @@ Enquanto está ativo, o RNAA dobra vários intervalos da fita sobre si mesma, re
 - Cada base pode se ligar a apenas uma outra base;
 - As dobras ocorrem de forma a maximizar o número de ligações feitas sobre fitas;
 
-As figuras abaixo ilustram dobras e ligacões feitas sobre fitas.
+As figuras abaixo ilustram dobras e ligações feitas sobre fitas.
 (https://resources.beecrowd.com/gallery/images/problems/UOJ_1242.jpg)
 
 Sua tarefa será, dada a descrição de uma tira de RNAA, determinar quantas ligações serão realizadas entre suas bases se a tira ficar ativa.
