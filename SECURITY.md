@@ -24,7 +24,7 @@ Você receberá uma resposta em até 48 horas.
 - Mantenha o Dart SDK e dependências atualizados
 - Use `dart pub audit` para verificar vulnerabilidades
 - Evite versões "any" no pubspec.yaml
-- Revise as permissões de dependências
+- Revise as permissões das dependências
 
 ## Divulgação Coordenada
 
