@@ -2,7 +2,7 @@
 
 ## Relatando Vulnerabilidades
 
-Se você descobrir uma vulnerabilidade de segurança, **não abra uma issue pública**. Em vez disso, envie um relatório privado para: **[caiocaladaraujo.dev@gmail.com]** com o título "[SEGURANÇA-DART-LAB]".
+Se você descobrir uma vulnerabilidade de segurança, **não abra uma issue pública**. Em vez disso, envie um relatório privado para: **[caiocaladaraujo.dev@gmail.com](mailto:caiocaladaraujo.dev@gmail.com)** com o título "[SEGURANÇA-DART-LAB]".
 
 Por favor, inclua:
 
