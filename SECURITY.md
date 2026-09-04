@@ -1,21 +1,40 @@
-# Security Policy
+# Política de Segurança
 
-## Supported Versions
+## Relatando Vulnerabilidades
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Se você descobrir uma vulnerabilidade de segurança, **não abra uma issue pública**. Em vez disso, envie um relatório privado para: **[caiocaladaraujo.dev@gmail.com]** com o título "[SEGURANÇA-DART-LAB]".
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+Por favor, inclua:
 
-## Reporting a Vulnerability
+- Descrição clara da vulnerabilidade
+- Passos para reproduzir
+- Possível impacto
+- Sugestões de correção (se houver)
 
-Use this section to tell people how to report a vulnerability.
+Você receberá uma resposta em até 48 horas.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+## Versões Suportadas
+
+| Versão  | Status             | Suporte Até   |
+|---------|--------------------|---------------|
+| Atual   | Em desenvolvimento | TBD           |
+
+## Melhores Práticas de Segurança
+
+- Mantenha o Dart SDK e dependências atualizados
+- Use `dart pub audit` para verificar vulnerabilidades
+- Evite versões "any" no pubspec.yaml
+- Revise as permissões de dependências
+
+## Divulgação Coordenada
+
+Após a correção, divulgaremos a vulnerabilidade seguindo a prática padrão de 90 dias.
+
+## Segurança das Dependências
+
+Execute regularmente:
+
+```bash
+dart pub outdated
+dart pub audit
+```
