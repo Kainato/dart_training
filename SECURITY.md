@@ -15,9 +15,12 @@ Você receberá uma resposta em até 48 horas.
 
 ## Versões Suportadas
 
-| Versão  | Status             | Suporte Até   |
-|---------|--------------------|---------------|
-| Atual   | Em desenvolvimento | TBD           |
+| Versão     | Status                      | Suporte    |
+|------------|-----------------------------|------------|
+| Principal  | Suportada (desenvolvimento) | Contínuo   |
+| Anteriores | Não suportadas              | -          |
+
+**Nota:** Apenas a versão mais recente (branch `master`) recebe atualizações de segurança. Recomendamos manter-se atualizado com a versão mais recente.
 
 ## Melhores Práticas de Segurança
 
