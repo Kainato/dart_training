@@ -29,31 +29,29 @@ Para cada caso de teste imprima o valor de hash que é calculado conforme o exem
 import 'dart:io';
 
 void main() {
-  List<String> lines = [];
-  String? line;
-  while ((line = stdin.readLineSync()) != null) {
-    lines.add(line);
-  }
-  int idx = 0;
-  int n = int.parse(lines[idx++]);
-  const int aValue = 65; // 'A'.codeUnitAt(0)
+  // Lê a quantidade de casos de teste
+  final int casosTeste = int.tryParse(stdin.readLineSync()!) ?? 0;
 
-  for (int i = 0; i < n; i++) {
-    int l = int.parse(lines[idx++]);
-    int hashValue = 0;
+  // Inicia o processamento de cada casos de teste
+  for (int i = 0; i < casosTeste; i++) {
+    // Cada caso de teste inicia com um inteiro L (1 ≤ L ≤ 100) que indica a quantidade de linhas que vem a seguir
+    final int l = int.tryParse(stdin.readLineSync()!) ?? 0;
 
-    for (int j = 0; j < l; j++) {
-      String line = lines[idx++];
-      int len = line.length;
-      int lineHash = 0;
+    // Inicializa o hash para o caso de teste atual
+    // Hash é a soma de todos os valores calculados para cada caractere das linhas do caso de teste atual
+    int hash = 0;
 
-      for (int k = 0; k < len; k++) {
-        lineHash += line.codeUnitAt(k) - aValue + j + k;
+    // Inicia o processamento de cada linha
+    for (int ii = 0; ii < l; ii++) {
+      // Lê o input dado pelo texto enviado
+      final String saidaLinha = stdin.readLineSync() ?? '';
+
+      // Inicia o processamento de cada caractere da linha atual
+      for (int j = 0; j < saidaLinha.length; j++) {
+        final int posAlfabeto = saidaLinha.codeUnitAt(j) - 'A'.codeUnitAt(0);
+        hash += posAlfabeto + ii + j;
       }
-
-      hashValue += lineHash;
     }
-
-    print(hashValue);
+    print(hash);
   }
 }
